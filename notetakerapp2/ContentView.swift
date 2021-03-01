@@ -9,10 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("wow")
-            .padding(.all)
-            .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue
-                                                                        .blur(radius: 5)/*@END_MENU_TOKEN@*/)
+        Color(#colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)).ignoresSafeArea()
+            Image(systemName: "calendar")
+            
     }
 }
 

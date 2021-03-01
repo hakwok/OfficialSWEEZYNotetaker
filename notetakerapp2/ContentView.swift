@@ -9,10 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
+        Image("folderPurple")
+        Image("folderGreen")
+        Image("folderBlue")
+        Image("folderOrange")
+        Image("folderPink")
         Image("plusButton")
+        Image("folderYellow")
         Color(#colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)).ignoresSafeArea()
-            Image(systemName: "calendar")
-            
+        Image(systemName: "calendar")
     }
 }
 
